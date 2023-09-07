@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,19 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Odin - A Jekyll Knowledge Base Theme
-description: Odin is a simple to setup and use Jekyll theme for help desks and knowledge bases. Hosts for free on Github Pages!
-baseurl: /odin # the subpath of your site, e.g. /support
-url: https://teaguns.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+title: The Dashing - Heimdall
+description: >- # this means to ignore newlines until "baseurl:"
+  Heimdall is the guardian of the Bifrost Bridge, and as its gatekeeper, he controls access and travel between Asgard and the other nine realms. With his all-seeing eyes, Heimdall protects Asgard and all of its citizens. He is the first line of defense against any intrusion or invasion. Heimdall is also the brother of Sif, the goddess of war, and the son of Nine Mothers, who are sisters that were all impregnated by Odin, the All-Father. Heimdall is the only one who can open the Bifrost Bridge to allow Thor and his friends to travel to Jotunheim, the land of the Frost Giants. Heimdall is also the only one who can open the Bifrost Bridge to allow Thor and his friends to travel to Jotunheim, the land of the Frost Giants. Heimdall is also the only one who can open the Bifrost Bridge to allow Thor and his friends to travel to Jotunheim, the land of the Frost Giants.
+
+baseurl: /heimdall # the subpath of your site, e.g. /support
+url: https://heimdall-aldoyh.github.io # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title
 
-content_type: Knowledge Base #Define whether this is a knowledge base, help center, or something else
+content_type: Monitor & Control Realms
 use_authors: true #Set this to false to disable showing post authors
 
 brand_logo: logo.png
-brand_name: Odin
-header: How can we help you?
-subheader: Support and documentation for Odin
+brand_name: DoyTech
+header: ❝Your business is our gateway to success.❞ - Heimdall 🦙
+subheader: Image or Text Generation is at your fingertips.
 
 meta_image: odin-meta.png
 
@@ -40,7 +42,7 @@ facebook_page:
 github_username: TeaGuns
 email: m@credd.in
 linkedin_page:
-instagram_username: 
+instagram_username:
 
 
 # Navivation
